@@ -32,9 +32,9 @@ npm install
 
 3. Configure environment variables
 
-Create a `.env.local` file in the project root and copy values from `.env.example`.
+Create a `.env.local` file in the project root.
 
-Example `.env`:
+`.env.local` file :
 
 ```Example:
 
@@ -48,6 +48,8 @@ NEXT_PUBLIC_GRAPHQL_ENDPOINT=/graphql/
 npm run dev
 ```
 App will run on:
-
+```bash
 http://localhost:3000/
+```
+
 
