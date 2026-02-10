@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { Button } from "../ui/button";
+import { Circle, Music } from "lucide-react";
 
 export default function LandingPage() {
     const router = useRouter();
@@ -22,7 +23,8 @@ export default function LandingPage() {
                     className="px-10 py-6 text-xl"
                     onClick={() => router.push("/music")}
                 >
-                    Let’s go 🎵
+                    Let’s go
+                    <Music className="!w-7 !h-7" strokeWidth={1.8} />
                 </Button>
             </div>
         </div>
